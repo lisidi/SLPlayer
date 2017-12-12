@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		307F1247DA776FF3D06EDDD0 /* libPods-SLPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF7F03F14D66C49E64A630E /* libPods-SLPlayerDemo.a */; };
+		C3903B891FDFCA4A007BB51C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3903B881FDFCA4A007BB51C /* AppDelegate.m */; };
+		C3903B8C1FDFCA4A007BB51C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3903B8B1FDFCA4A007BB51C /* ViewController.m */; };
+		C3903B8F1FDFCA4A007BB51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3903B8D1FDFCA4A007BB51C /* Main.storyboard */; };
+		C3903B911FDFCA4A007BB51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3903B901FDFCA4A007BB51C /* Assets.xcassets */; };
+		C3903B941FDFCA4A007BB51C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3903B921FDFCA4A007BB51C /* LaunchScreen.storyboard */; };
+		C3903B971FDFCA4A007BB51C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3903B961FDFCA4A007BB51C /* main.m */; };
+		C3903B9F1FDFCF70007BB51C /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3903B9D1FDFCF70007BB51C /* Test1ViewController.m */; };
+		C3903BA31FDFCFB6007BB51C /* SimpleAlignCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3903BA01FDFCFB6007BB51C /* SimpleAlignCell.m */; };
+		C3903BA41FDFCFB6007BB51C /* SimpleAlignCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3903BA11FDFCFB6007BB51C /* SimpleAlignCell.xib */; };
+		C3903BB51FDFCFF9007BB51C /* SLPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3903BA61FDFCFF9007BB51C /* SLPlayerView.m */; };
+		C3903BB61FDFCFF9007BB51C /* SLBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3903BA71FDFCFF9007BB51C /* SLBrightnessView.m */; };
+		C3903BB71FDFCFF9007BB51C /* SLPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3903BA91FDFCFF9007BB51C /* SLPlayerModel.m */; };
+		C3903BB81FDFCFF9007BB51C /* SLPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3903BAB1FDFCFF9007BB51C /* SLPlayerControlView.m */; };
+		C3903BB91FDFCFF9007BB51C /* UIView+ControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3903BB01FDFCFF9007BB51C /* UIView+ControlView.m */; };
+		C3903BBA1FDFCFF9007BB51C /* UIViewController+SDPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C3903BB21FDFCFF9007BB51C /* UIViewController+SDPlayerRotation.m */; };
+		C3903BC01FDFD6D9007BB51C /* SLPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C3903BBF1FDFD6D9007BB51C /* SLPlayer.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		648A639471591230332222AE /* Pods-SLPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLPlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLPlayerDemo/Pods-SLPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B44CDC4847E219622DFC7822 /* Pods-SLPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLPlayerDemo/Pods-SLPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BFF7F03F14D66C49E64A630E /* libPods-SLPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SLPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3903B841FDFCA4A007BB51C /* SLPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3903B871FDFCA4A007BB51C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3903B881FDFCA4A007BB51C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3903B8A1FDFCA4A007BB51C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3903B8B1FDFCA4A007BB51C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3903B8E1FDFCA4A007BB51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3903B901FDFCA4A007BB51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3903B931FDFCA4A007BB51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3903B951FDFCA4A007BB51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3903B961FDFCA4A007BB51C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3903B9D1FDFCF70007BB51C /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		C3903B9E1FDFCF70007BB51C /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		C3903BA01FDFCFB6007BB51C /* SimpleAlignCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleAlignCell.m; sourceTree = "<group>"; };
+		C3903BA11FDFCFB6007BB51C /* SimpleAlignCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleAlignCell.xib; sourceTree = "<group>"; };
+		C3903BA21FDFCFB6007BB51C /* SimpleAlignCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAlignCell.h; sourceTree = "<group>"; };
+		C3903BA61FDFCFF9007BB51C /* SLPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPlayerView.m; sourceTree = "<group>"; };
+		C3903BA71FDFCFF9007BB51C /* SLBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBrightnessView.m; sourceTree = "<group>"; };
+		C3903BA81FDFCFF9007BB51C /* UIViewController+SDPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SDPlayerRotation.h"; sourceTree = "<group>"; };
+		C3903BA91FDFCFF9007BB51C /* SLPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPlayerModel.m; sourceTree = "<group>"; };
+		C3903BAA1FDFCFF9007BB51C /* UIView+ControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ControlView.h"; sourceTree = "<group>"; };
+		C3903BAB1FDFCFF9007BB51C /* SLPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPlayerControlView.m; sourceTree = "<group>"; };
+		C3903BAC1FDFCFF9007BB51C /* SLBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBrightnessView.h; sourceTree = "<group>"; };
+		C3903BAD1FDFCFF9007BB51C /* SLPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPlayerView.h; sourceTree = "<group>"; };
+		C3903BAE1FDFCFF9007BB51C /* SLPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPlayer.h; sourceTree = "<group>"; };
+		C3903BAF1FDFCFF9007BB51C /* SLPlayerControlViewDelagate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPlayerControlViewDelagate.h; sourceTree = "<group>"; };
+		C3903BB01FDFCFF9007BB51C /* UIView+ControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ControlView.m"; sourceTree = "<group>"; };
+		C3903BB11FDFCFF9007BB51C /* SLPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPlayerModel.h; sourceTree = "<group>"; };
+		C3903BB21FDFCFF9007BB51C /* UIViewController+SDPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SDPlayerRotation.m"; sourceTree = "<group>"; };
+		C3903BB31FDFCFF9007BB51C /* SLMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMarco.h; sourceTree = "<group>"; };
+		C3903BB41FDFCFF9007BB51C /* SLPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPlayerControlView.h; sourceTree = "<group>"; };
+		C3903BBF1FDFD6D9007BB51C /* SLPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SLPlayer.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3903B811FDFCA4A007BB51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307F1247DA776FF3D06EDDD0 /* libPods-SLPlayerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AB47592F5A0E88CE240B388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFF7F03F14D66C49E64A630E /* libPods-SLPlayerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CF6B57B0B04B0E5ADB88677 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				648A639471591230332222AE /* Pods-SLPlayerDemo.debug.xcconfig */,
+				B44CDC4847E219622DFC7822 /* Pods-SLPlayerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3903B7B1FDFCA4A007BB51C = {
+			isa = PBXGroup;
+			children = (
+				C3903B861FDFCA4A007BB51C /* SLPlayerDemo */,
+				C3903B851FDFCA4A007BB51C /* Products */,
+				7CF6B57B0B04B0E5ADB88677 /* Pods */,
+				5AB47592F5A0E88CE240B388 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3903B851FDFCA4A007BB51C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3903B841FDFCA4A007BB51C /* SLPlayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3903B861FDFCA4A007BB51C /* SLPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C3903BA51FDFCFF9007BB51C /* SLPlayer */,
+				C3903B871FDFCA4A007BB51C /* AppDelegate.h */,
+				C3903B881FDFCA4A007BB51C /* AppDelegate.m */,
+				C3903B8A1FDFCA4A007BB51C /* ViewController.h */,
+				C3903B8B1FDFCA4A007BB51C /* ViewController.m */,
+				C3903B9E1FDFCF70007BB51C /* Test1ViewController.h */,
+				C3903B9D1FDFCF70007BB51C /* Test1ViewController.m */,
+				C3903BA21FDFCFB6007BB51C /* SimpleAlignCell.h */,
+				C3903BA01FDFCFB6007BB51C /* SimpleAlignCell.m */,
+				C3903BA11FDFCFB6007BB51C /* SimpleAlignCell.xib */,
+				C3903B8D1FDFCA4A007BB51C /* Main.storyboard */,
+				C3903B901FDFCA4A007BB51C /* Assets.xcassets */,
+				C3903B921FDFCA4A007BB51C /* LaunchScreen.storyboard */,
+				C3903B951FDFCA4A007BB51C /* Info.plist */,
+				C3903B961FDFCA4A007BB51C /* main.m */,
+			);
+			path = SLPlayerDemo;
+			sourceTree = "<group>";
+		};
+		C3903BA51FDFCFF9007BB51C /* SLPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C3903BBF1FDFD6D9007BB51C /* SLPlayer.bundle */,
+				C3903BAE1FDFCFF9007BB51C /* SLPlayer.h */,
+				C3903BAF1FDFCFF9007BB51C /* SLPlayerControlViewDelagate.h */,
+				C3903BAD1FDFCFF9007BB51C /* SLPlayerView.h */,
+				C3903BA61FDFCFF9007BB51C /* SLPlayerView.m */,
+				C3903BB11FDFCFF9007BB51C /* SLPlayerModel.h */,
+				C3903BA91FDFCFF9007BB51C /* SLPlayerModel.m */,
+				C3903BAC1FDFCFF9007BB51C /* SLBrightnessView.h */,
+				C3903BA71FDFCFF9007BB51C /* SLBrightnessView.m */,
+				C3903BA81FDFCFF9007BB51C /* UIViewController+SDPlayerRotation.h */,
+				C3903BB21FDFCFF9007BB51C /* UIViewController+SDPlayerRotation.m */,
+				C3903BAA1FDFCFF9007BB51C /* UIView+ControlView.h */,
+				C3903BB01FDFCFF9007BB51C /* UIView+ControlView.m */,
+				C3903BB41FDFCFF9007BB51C /* SLPlayerControlView.h */,
+				C3903BAB1FDFCFF9007BB51C /* SLPlayerControlView.m */,
+				C3903BB31FDFCFF9007BB51C /* SLMarco.h */,
+			);
+			path = SLPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3903B831FDFCA4A007BB51C /* SLPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3903B9A1FDFCA4A007BB51C /* Build configuration list for PBXNativeTarget "SLPlayerDemo" */;
+			buildPhases = (
+				3E66BC0C75E000AC61D72A04 /* [CP] Check Pods Manifest.lock */,
+				C3903B801FDFCA4A007BB51C /* Sources */,
+				C3903B811FDFCA4A007BB51C /* Frameworks */,
+				C3903B821FDFCA4A007BB51C /* Resources */,
+				6A0092EC460170C892FD7422 /* [CP] Embed Pods Frameworks */,
+				948605D3F0C8507CB0887CFF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLPlayerDemo;
+			productName = SLPlayerDemo;
+			productReference = C3903B841FDFCA4A007BB51C /* SLPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3903B7C1FDFCA4A007BB51C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = lisd;
+				TargetAttributes = {
+					C3903B831FDFCA4A007BB51C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C3903B7F1FDFCA4A007BB51C /* Build configuration list for PBXProject "SLPlayerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3903B7B1FDFCA4A007BB51C;
+			productRefGroup = C3903B851FDFCA4A007BB51C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3903B831FDFCA4A007BB51C /* SLPlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3903B821FDFCA4A007BB51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3903B941FDFCA4A007BB51C /* LaunchScreen.storyboard in Resources */,
+				C3903BA41FDFCFB6007BB51C /* SimpleAlignCell.xib in Resources */,
+				C3903B911FDFCA4A007BB51C /* Assets.xcassets in Resources */,
+				C3903B8F1FDFCA4A007BB51C /* Main.storyboard in Resources */,
+				C3903BC01FDFD6D9007BB51C /* SLPlayer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E66BC0C75E000AC61D72A04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0092EC460170C892FD7422 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLPlayerDemo/Pods-SLPlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948605D3F0C8507CB0887CFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLPlayerDemo/Pods-SLPlayerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3903B801FDFCA4A007BB51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3903B9F1FDFCF70007BB51C /* Test1ViewController.m in Sources */,
+				C3903BB61FDFCFF9007BB51C /* SLBrightnessView.m in Sources */,
+				C3903BA31FDFCFB6007BB51C /* SimpleAlignCell.m in Sources */,
+				C3903BB51FDFCFF9007BB51C /* SLPlayerView.m in Sources */,
+				C3903B8C1FDFCA4A007BB51C /* ViewController.m in Sources */,
+				C3903BB81FDFCFF9007BB51C /* SLPlayerControlView.m in Sources */,
+				C3903B971FDFCA4A007BB51C /* main.m in Sources */,
+				C3903BBA1FDFCFF9007BB51C /* UIViewController+SDPlayerRotation.m in Sources */,
+				C3903B891FDFCA4A007BB51C /* AppDelegate.m in Sources */,
+				C3903BB71FDFCFF9007BB51C /* SLPlayerModel.m in Sources */,
+				C3903BB91FDFCFF9007BB51C /* UIView+ControlView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3903B8D1FDFCA4A007BB51C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3903B8E1FDFCA4A007BB51C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3903B921FDFCA4A007BB51C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3903B931FDFCA4A007BB51C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3903B981FDFCA4A007BB51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3903B991FDFCA4A007BB51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3903B9B1FDFCA4A007BB51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648A639471591230332222AE /* Pods-SLPlayerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 266655SB8D;
+				INFOPLIST_FILE = SLPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisd.SLPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3903B9C1FDFCA4A007BB51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44CDC4847E219622DFC7822 /* Pods-SLPlayerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 266655SB8D;
+				INFOPLIST_FILE = SLPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisd.SLPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3903B7F1FDFCA4A007BB51C /* Build configuration list for PBXProject "SLPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3903B981FDFCA4A007BB51C /* Debug */,
+				C3903B991FDFCA4A007BB51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3903B9A1FDFCA4A007BB51C /* Build configuration list for PBXNativeTarget "SLPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3903B9B1FDFCA4A007BB51C /* Debug */,
+				C3903B9C1FDFCA4A007BB51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3903B7C1FDFCA4A007BB51C /* Project object */;
+}
